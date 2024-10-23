@@ -1,0 +1,210 @@
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    font-size:60px;
+}
+
+.menu{
+    position: fixed;
+    top:0px;
+    left:0px;
+    height: 100%;
+    background-color: black;
+    /* z-index:1; */
+    padding-top: 60px;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+.menuLinks{
+    display: flex;
+    flex-direction: column;
+}
+.menu a{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    color: white;
+   
+}
+.menu .close{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+.bars{
+    position: fixed;
+    display:flex;
+    align-items: center;
+}
+
+.open{
+    font-size: 30px;
+    cursor: pointer;
+   top:400px;
+    left:20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s;
+   
+    
+}
+.moving {
+    transform: translateX(250px); 
+    transition: transform 0.3s; 
+}
+
+
+.Home-section{
+    background-image:   linear-gradient( rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)) , url("../images/events-heavenly-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 660px;
+    color: white;
+}
+.content{
+    padding: 16px;
+}
+
+
+.slides{
+    width:50%;
+    margin:100px auto;
+}
+.slides h3{
+    padding: 10px;
+    background-color: rgba(214, 46, 51, 0.6);
+    margin:0px;
+    color:white;
+}
+
+.slides .firstSlide{
+    display: block;
+}
+
+.slide{
+    padding:10px;
+    background-color: #ccc;
+    display: none;
+}
+
+
+/* counter-section */
+
+.counter{
+
+    background-image:   linear-gradient( rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)) , url("../images/invitation-2508607__340.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 330px;
+}
+.counter .container,
+.contact-section .container{
+    padding:100px 0px;
+}
+
+.box{
+    padding:50px;
+    font-size: 30px;
+    font-weight: 500;
+    color:white;
+    border:1px solid white;
+}
+
+
+
+/* contact-section */
+
+
+
+.title p{
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.leftSide h3{
+    font-size: 18px;
+    font-weight: bold;
+    color:#444;
+}
+.leftSide p,
+.info ul li{
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+.info{
+    margin-top: 50px;
+}
+.info ul li{
+    margin-bottom: 35px;
+}
+.info ul li:nth-of-type(2) span{
+    color:#D62E33;
+}
+.info ul li i{
+    margin-right: 20px;
+}
+.socialmedia{
+    margin-top: 60px;
+    color: #777;
+}
+
+.socialmedia ul li{
+    margin-right:10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+}
+.socialmedia ul li:hover{
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
+.form-control{
+    margin-bottom: 20px;
+   border-radius: 0;
+}
+textarea{
+    height:200px;
+    resize:vertical;
+}
+.contact-section form button{
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    
+}
+.contact-section form button:hover{
+
+ background-color: #D62E33;
+    color: #fff;
+}
+
+form p span{
+    color:#D62E33;
+}
+form p{
+    font-size:20px;
+}
